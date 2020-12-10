@@ -4,7 +4,8 @@
   "description": "examples of github actions for frontend apps",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "build": "npm test && echo 'TODO: include your webpack/rollup build step here'"
   },
   "license": "Apache-2.0",
   "devDependencies": {
